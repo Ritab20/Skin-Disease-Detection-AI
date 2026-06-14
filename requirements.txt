@@ -1,0 +1,78 @@
+# Requirements for Camera Input
+
+## Minimum Required (Both Methods)
+```
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python>=4.8.0
+pillow>=10.0.0
+numpy>=1.24.0
+pytorch-grad-cam>=1.5.0
+streamlit>=1.28.0
+pandas>=1.5.0
+matplotlib>=3.7.0
+scikit-learn>=1.3.0
+```
+
+## Optional (For Enhanced Streamlit Camera)
+```
+streamlit-webrtc>=0.47.0
+av>=10.0.0
+```
+
+## Installation Instructions
+
+### Option A: Install Everything at Once
+```bash
+pip install torch torchvision opencv-python pillow numpy pytorch-grad-cam streamlit pandas matplotlib scikit-learn streamlit-webrtc av
+```
+
+### Option B: Using requirements file
+Create `requirements_camera.txt` with above contents, then:
+```bash
+pip install -r requirements_camera.txt
+```
+
+### Option C: Minimal Setup (Just for camera)
+```bash
+pip install streamlit opencv-python torch torchvision pytorch-grad-cam pillow numpy
+```
+
+Then optionally add WebRTC:
+```bash
+pip install streamlit-webrtc av
+```
+
+## Version Information
+
+### My Environment (Tested & Working)
+- Python: 3.10+
+- PyTorch: 2.0+
+- OpenCV: 4.8+
+- Streamlit: 1.28+
+- CUDA: 12.1 (optional, for GPU)
+
+## Verification Commands
+
+Check if all packages are installed correctly:
+
+```bash
+# Check PyTorch
+python -c "import torch; print(f'PyTorch: {torch.__version__}'); print(f'CUDA Available: {torch.cuda.is_available()}')"
+
+# Check OpenCV
+python -c "import cv2; print(f'OpenCV: {cv2.__version__}')"
+
+# Check Streamlit
+python -c "import streamlit; print(f'Streamlit: {streamlit.__version__}')"
+
+# Check Grad-CAM
+python -c "import pytorch_grad_cam; print('Grad-CAM installed ✓')"
+```
+
+## Notes
+
+- **Don't have CUDA?** No problem - code will automatically use CPU (slower but works)
+- **WebRTC Optional** - Streamlit app works without it; camera will fall back to simple snapshot button
+- **OpenCV Camera** - Works on Windows, Mac, Linux with any webcam
+- Always verify your camera is properly recognized by your OS before running the app

@@ -1,0 +1,99 @@
+{
+  "nv": {
+    "description": "Melanocytic Nevi (moles) are common benign skin growths formed by clusters of pigment-producing cells.",
+    "severity": "benign and non-cancerous",
+    "treatment": "Treatment usually not required unless cosmetic removal is desired.",
+    "treatment_duration": "If removed surgically, healing usually takes 1–3 weeks.",
+    "recovery_time": "Recovery after removal is typically within a few weeks.",
+    "lesion_behavior": "Usually permanent but stable and harmless over time.",
+    "precaution": "Avoid excessive sun exposure and monitor for shape or color changes.",
+    "consult": "Consult dermatologist if mole changes rapidly or bleeds.",
+    "spread": "Does not spread to other body parts.",
+    "cancer_risk": "Very low risk unless abnormal changes occur.",
+    "prevention": "Use sunscreen regularly and avoid excessive UV exposure."
+  },
+
+  "mel": {
+    "description": "Melanoma is a serious form of skin cancer developing from melanocytes.",
+    "severity": "serious and potentially life-threatening if untreated",
+    "treatment": "Requires surgical removal and possibly immunotherapy or radiation.",
+    "treatment_duration": "Treatment duration depends on cancer stage and therapy response.",
+    "recovery_time": "Recovery varies from weeks to months depending on treatment stage.",
+    "lesion_behavior": "Can grow and spread if untreated.",
+    "precaution": "Avoid sun exposure and monitor suspicious lesions.",
+    "consult": "Immediate dermatologist consultation required.",
+    "spread": "Can spread to internal organs if untreated.",
+    "cancer_risk": "This is a malignant skin cancer.",
+    "prevention": "Use SPF 30+ sunscreen and avoid tanning beds."
+  },
+
+  "bkl": {
+    "description": "Benign Keratosis includes harmless skin growths such as seborrheic keratosis.",
+    "severity": "benign and non-cancerous",
+    "treatment": "Usually no treatment required unless irritation occurs.",
+    "treatment_duration": "Removal procedures heal within 1–2 weeks.",
+    "recovery_time": "Recovery is quick after removal if treated.",
+    "lesion_behavior": "Often permanent but harmless.",
+    "precaution": "Protect skin from sun exposure.",
+    "consult": "Consult dermatologist if lesion changes appearance.",
+    "spread": "Does not spread internally.",
+    "cancer_risk": "Very low cancer risk.",
+    "prevention": "Maintain sun protection habits."
+  },
+
+  "bcc": {
+    "description": "Basal Cell Carcinoma is a slow-growing skin cancer that rarely spreads.",
+    "severity": "low-risk cancer but requires treatment",
+    "treatment": "Treatment includes surgery, cryotherapy, or topical medications.",
+    "treatment_duration": "Treatment usually completed within a few weeks.",
+    "recovery_time": "Healing typically occurs within 2–6 weeks after treatment.",
+    "lesion_behavior": "May enlarge slowly if untreated.",
+    "precaution": "Avoid sun exposure and monitor lesion growth.",
+    "consult": "Consult dermatologist promptly.",
+    "spread": "Rarely spreads but may damage nearby tissues.",
+    "cancer_risk": "Cancerous but highly treatable.",
+    "prevention": "Use sunscreen daily."
+  },
+
+  "akiec": {
+    "description": "Actinic Keratosis is a precancerous skin condition caused by sun exposure.",
+    "severity": "precancerous and requires monitoring",
+    "treatment": "Treatment includes topical creams or cryotherapy.",
+    "treatment_duration": "Treatment duration ranges from days to weeks depending on therapy.",
+    "recovery_time": "Recovery typically occurs within a few weeks.",
+    "lesion_behavior": "May persist or progress if untreated.",
+    "precaution": "Avoid UV exposure.",
+    "consult": "Consult dermatologist early.",
+    "spread": "Does not spread internally but may progress into cancer.",
+    "cancer_risk": "Moderate risk if untreated.",
+    "prevention": "Use sunscreen and protective clothing."
+  },
+
+  "vasc": {
+    "description": "Vascular lesions are harmless abnormalities of blood vessels.",
+    "severity": "benign and non-cancerous",
+    "treatment": "Treatment usually not required unless cosmetic removal needed.",
+    "treatment_duration": "Laser removal healing takes about 1 to 2 weeks.",
+    "recovery_time": "Recovery quick if treated.",
+    "lesion_behavior": "Often stable over time.",
+    "precaution": "Avoid trauma to lesion area.",
+    "consult": "Consult dermatologist if bleeding occurs.",
+    "spread": "Does not spread internally.",
+    "cancer_risk": "No cancer risk.",
+    "prevention": "Not preventable but harmless."
+  },
+
+  "df": {
+    "description": "Dermatofibroma is a benign skin growth caused by minor skin injury.",
+    "severity": "benign and harmless",
+    "treatment": "Treatment usually not required.",
+    "treatment_duration": "Surgical removal heals within 2–4 weeks.",
+    "recovery_time": "Recovery after removal takes a few weeks.",
+    "lesion_behavior": "Usually permanent but harmless.",
+    "precaution": "Avoid scratching lesion.",
+    "consult": "Consult dermatologist if painful or enlarging.",
+    "spread": "Does not spread.",
+    "cancer_risk": "No cancer risk.",
+    "prevention": "No specific prevention required."
+  }
+}
